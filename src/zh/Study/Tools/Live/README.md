@@ -11,6 +11,6 @@ category:
 
 ## 生活
 
-- [live_01](live_01.md)
-- [live_02](live_02.md)
+- [Markdown 入门](live_01.md)
+- [Markdown 示例](live_02.md)
 

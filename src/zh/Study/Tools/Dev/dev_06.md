@@ -91,3 +91,15 @@ COS 技术以存储桶 （Bucket） 为基本单元，一个存储桶类似于�
 - SecretKey: 密钥
 - Bucket: 存储桶名
 - 存储区域: 所属区域
+
+## 三、 COS 相关应用推荐
+
+### 3.1 COSBrowser
+
+[COSBrowser](https://cloud.tencent.com/document/product/436/11366) 是腾讯云对象存储 COS 推出的可视化界面工具，让您可以使用更简单的交互轻松实现对 COS 资源的查看、传输和管理。
+
+支持 
+
+![image-20230924165208657](https://yong-gan-niu-niu-1311841992.cos.ap-beijing.myqcloud.com/images/image-20230924165208657.png)
+
+![image-20230924165217056](https://yong-gan-niu-niu-1311841992.cos.ap-beijing.myqcloud.com/images/image-20230924165217056.png)

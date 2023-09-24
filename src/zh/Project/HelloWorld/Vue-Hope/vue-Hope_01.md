@@ -16,7 +16,8 @@ category:
 
 Node.js® 是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境。
 
-你需要下载并在你的电脑上安装最新的长期维护版。具体的下载可以参考 [NVM 管理工具的下载及使用](../../../Study/Tools/Dev/dev_08.md) 中的内容。
+你需要下载并在你的电脑上安装最新的长期维护版。具体的下载可以参考 [NVM 管理工具的下载及使用](../../../Study/Tools/Dev/dev_08.md)
+中的内容。
 
 ::: tip
 
@@ -28,7 +29,8 @@ Node.js® 是一个基于 Chrome V8 引擎 的 JavaScript 运行时环境。
 
 #### 1.1.2 WebStorm 开发工具的安装
 
-WebStorm 是 Jetbrains 旗下的一款前端集成开发工具，具体的下载可以参考 [破解 IDEA  等开发工具](../../../Study/Tools/Dev/dev_01.md) 中的内容。
+WebStorm 是 Jetbrains
+旗下的一款前端集成开发工具，具体的下载可以参考 [破解 IDEA  等开发工具](../../../Study/Tools/Dev/dev_01.md) 中的内容。
 
 ::: tip
 
@@ -49,7 +51,8 @@ corepack prepare pnpm@latest --activate
 
 ### 1.2 创建项目
 
-为了避免偶然间触发一些奇怪的问题，而你自己不会解决，请尽量避免使用包含中文文字、表情符号或空格的文件路径 (如: `C:\Users\小张\Desktop\VuePress 项目\Hope 主题❤️\`)。
+为了避免偶然间触发一些奇怪的问题，而你自己不会解决，请尽量避免使用包含中文文字、表情符号或空格的文件路径 (
+如: `C:\Users\小张\Desktop\VuePress 项目\Hope 主题❤️\`)。
 
 建议使用纯英文路径 (如: `D:\projects\vuepress-theme-hope\`)。
 
@@ -59,7 +62,8 @@ corepack prepare pnpm@latest --activate
 pnpm create vuepress-theme-hope Vue-Hope
 ```
 
-- 这里的 `Vue-Hope` 是一个参数，代表 VuePress Theme Hope 项目的文件夹名称，在本教程中，我们将项目生成至当前目录下的 `Vue-Hope` 文件夹。
+- 这里的 `Vue-Hope` 是一个参数，代表 VuePress Theme Hope
+  项目的文件夹名称，在本教程中，我们将项目生成至当前目录下的 `Vue-Hope` 文件夹。
 
   如果你有需求，你可以更改此参数来使用一个新文件夹名称。
 
@@ -133,8 +137,8 @@ VuePress 是以 Markdown 为中心的。你项目中的每一个 Markdown 文件
 
 你的 Markdown 文件对应的路由路径为:
 
-| 相对路径           | 路由路径            |
-| ------------------ | ------------------- |
+| 相对路径               | 路由路径                |
+|--------------------|---------------------|
 | `/README.md`       | `/`                 |
 | `/slide.md`        | `/slide.html`       |
 | `/guide/README.md` | `/guide/`           |
@@ -143,7 +147,8 @@ VuePress 是以 Markdown 为中心的。你项目中的每一个 Markdown 文件
 
 ::: finfo
 
-`README.md` 是特例，在 Markdown 中，按照约定俗成，它会作为所在文件夹的主页。所以在渲染为网页时，它的对应路径为网页中的主页路径 `index.html`。
+`README.md` 是特例，在 Markdown
+中，按照约定俗成，它会作为所在文件夹的主页。所以在渲染为网页时，它的对应路径为网页中的主页路径 `index.html`。
 
 这应该很好理解。👨‍💻👨‍💻
 
@@ -151,7 +156,8 @@ VuePress 是以 Markdown 为中心的。你项目中的每一个 Markdown 文件
 
 #### 2.1.2 Frontmatter
 
-Frontmatter 是 VuePress 中很重要的一个概念，它用于承载 Markdown 文件的配置。Markdown 文件可以包含一个 [YAMLopen in new window](https://yaml.org/) Frontmatter。
+Frontmatter 是 VuePress 中很重要的一个概念，它用于承载 Markdown 文件的配置。Markdown
+文件可以包含一个 [YAMLopen in new window](https://yaml.org/) Frontmatter。
 
 Frontmatter 必须在 Markdown 文件的顶部，并且被包裹在一对三短划线中间。下面是一个基本的示例:
 
@@ -162,12 +168,13 @@ title: 页面的标题
 description: 页面的描述
 ---
 
-<!-- 这里是 Markdown 内容 -->
+  <!-- 这里是 Markdown 内容 -->
 
-...
+  ...
 ```
 
-你肯定注意到 Frontmatter 中的字段和 VuePress 配置文件十分类似。你可以通过 Frontmatter 来覆盖当前页面的 `lang`, `title`, `description` 等属性。因此，你可以把 Frontmatter 当作页面级作用域的配置，它通常具有最高优先级，所作配置仅对当前页面生效。
+你肯定注意到 Frontmatter 中的字段和 VuePress 配置文件十分类似。你可以通过 Frontmatter
+来覆盖当前页面的 `lang`, `title`, `description` 等属性。因此，你可以把 Frontmatter 当作页面级作用域的配置，它通常具有最高优先级，所作配置仅对当前页面生效。
 
 #### 2.1.3 Markdown
 
@@ -185,8 +192,10 @@ description: 页面的描述
 
 ::: info
 
-- VuePress 自身对 Markdown 语法进行了一些扩展，关于这些扩展的语法，详见 [VuePress → Markdown](https://theme-hope.vuejs.press/zh/cookbook/vuepress/markdown.html)。
-- 主题通过 `vuepress-plugin-md-enhance` 额外启用了一些语法扩展，详见 [指南 → Markdown](https://theme-hope.vuejs.press/zh/guide/get-started/markdown.html)。
+- VuePress 自身对 Markdown
+  语法进行了一些扩展，关于这些扩展的语法，详见 [VuePress → Markdown](https://theme-hope.vuejs.press/zh/cookbook/vuepress/markdown.html)。
+- 主题通过 `vuepress-plugin-md-enhance`
+  额外启用了一些语法扩展，详见 [指南 → Markdown](https://theme-hope.vuejs.press/zh/guide/get-started/markdown.html)。
 
 :::
 
@@ -244,29 +253,29 @@ Vue-Hope 建议你使用 TypeScript 配置文件，以得到更好的类型提�
 #### 2.3.1 config.ts 的相关配置
 
 ```ts
-import { defineUserConfig } from "vuepress";
+import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+    base: "/",
 
-  locales: { /*英文界面下的信息配置*/
-    "/": {
-      lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+    locales: { /*英文界面下的信息配置*/
+        "/": {
+            lang: "en-US",
+            title: "Docs Demo",
+            description: "A docs demo for vuepress-theme-hope",
+        },
+        "/zh/": { /*中文界面下的信息配置*/
+            lang: "zh-CN",
+            title: "文档演示",
+            description: "vuepress-theme-hope 的文档演示",
+        },
     },
-    "/zh/": { /*中文界面下的信息配置*/
-      lang: "zh-CN",
-      title: "文档演示",
-      description: "vuepress-theme-hope 的文档演示",
-    },
-  },
 
-  theme,
+    theme,
 
-  // Enable it with pwa
-  // shouldPrefetch: false,
+    // Enable it with pwa
+    // shouldPrefetch: false,
 });
 
 ```
@@ -274,162 +283,162 @@ export default defineUserConfig({
 #### 2.3.2 theme.ts 的相关配置
 
 ```ts
-import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import {hopeTheme} from "vuepress-theme-hope";
+import {enNavbar, zhNavbar} from "./navbar/index.js";
+import {enSidebar, zhSidebar} from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+    hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
-  author: { /*作者信息配置*/
-      name: "Mr.Cola",
-      url: "https://github.com/cola777jz/HelloWorld",
-      email: "cola0817jz@gmail.com"
-  },
-
-  iconAssets: "fontawesome-with-brands",
-
-  logo: "/logo.svg",
-
-  repo: "cola777jz/HelloWorld", /*仓库信息配置*/
-
-  docsDir: "src",
-
-  locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-        /*英文下 默认页脚的配置*/
-      footer: "Power by <a href=\"https://github.com/cola777jz/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
-
-      displayFooter: true,
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
+    author: { /*作者信息配置*/
+        name: "Mr.Cola",
+        url: "https://github.com/cola777jz/HelloWorld",
+        email: "cola0817jz@gmail.com"
     },
 
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
+    iconAssets: "fontawesome-with-brands",
 
-      // sidebar
-      sidebar: zhSidebar,
+    logo: "/logo.svg",
 
-        /*中文下 默认页脚的配置*/  
-      footer: "Power by <a href=\"https://github.com/cola777jz/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
+    repo: "cola777jz/HelloWorld", /*仓库信息配置*/
 
-      displayFooter: true,
+    docsDir: "src",
 
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
-  },
+    locales: {
+        "/": {
+            // navbar
+            navbar: enNavbar,
 
-  encrypt: {
-    config: {
-        /*加密页面密码的配置*/
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
-    },
-  },
+            // sidebar
+            sidebar: enSidebar,
 
-  plugins: {
-    // You should generate and use your own comment service
-    comment: {
-        /*评论功能相关配置*/
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+            /*英文下 默认页脚的配置*/
+            footer: "Power by <a href=\"https://github.com/cola777jz/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
 
-    // All features are enabled for demo, only preserve features you need here
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      chart: true,
-      codetabs: true,
-      demo: true,
-      echarts: true,
-      figure: true,
-      flowchart: true,
-      gfm: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      katex: true,
-      mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
+            displayFooter: true,
+
+            metaLocales: {
+                editLink: "Edit this page on GitHub",
+            },
         },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
-      vuePlayground: true,
+
+        /**
+         * Chinese locale config
+         */
+        "/zh/": {
+            // navbar
+            navbar: zhNavbar,
+
+            // sidebar
+            sidebar: zhSidebar,
+
+            /*中文下 默认页脚的配置*/
+            footer: "Power by <a href=\"https://github.com/cola777jz/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
+
+            displayFooter: true,
+
+            // page meta
+            metaLocales: {
+                editLink: "在 GitHub 上编辑此页",
+            },
+        },
     },
-  },
+
+    encrypt: {
+        config: {
+            /*加密页面密码的配置*/
+            "/demo/encrypt.html": ["1234"],
+            "/zh/demo/encrypt.html": ["1234"],
+        },
+    },
+
+    plugins: {
+        // You should generate and use your own comment service
+        comment: {
+            /*评论功能相关配置*/
+            provider: "Giscus",
+            repo: "vuepress-theme-hope/giscus-discussions",
+            repoId: "R_kgDOG_Pt2A",
+            category: "Announcements",
+            categoryId: "DIC_kwDOG_Pt2M4COD69",
+        },
+
+        // All features are enabled for demo, only preserve features you need here
+        mdEnhance: {
+            align: true,
+            attrs: true,
+            chart: true,
+            codetabs: true,
+            demo: true,
+            echarts: true,
+            figure: true,
+            flowchart: true,
+            gfm: true,
+            imgLazyload: true,
+            imgSize: true,
+            include: true,
+            katex: true,
+            mark: true,
+            mermaid: true,
+            playground: {
+                presets: ["ts", "vue"],
+            },
+            presentation: ["highlight", "math", "search", "notes", "zoom"],
+            stylize: [
+                {
+                    matcher: "Recommended",
+                    replacer: ({tag}) => {
+                        if (tag === "em")
+                            return {
+                                tag: "Badge",
+                                attrs: {type: "tip"},
+                                content: "Recommended",
+                            };
+                    },
+                },
+            ],
+            sub: true,
+            sup: true,
+            tabs: true,
+            vPre: true,
+            vuePlayground: true,
+        },
+    },
 });
 ```
 
 #### 2.3.3 导航栏相关配置
 
 ```ts
-import { navbar } from "vuepress-theme-hope";
+import {navbar} from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
-  "/zh/demo/",
-  {
-    text: "指南",
-    icon: "lightbulb",
-    prefix: "/zh/guide/",
-    children: [
-      {
-        text: "Bar",
+    "/zh/",
+    "/zh/demo/",
+    {
+        text: "指南",
         icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
-      },
-    ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+        prefix: "/zh/guide/",
+        children: [
+            {
+                text: "Bar",
+                icon: "lightbulb",
+                prefix: "bar/",
+                children: ["baz", {text: "...", icon: "ellipsis", link: ""}],
+            },
+            {
+                text: "Foo",
+                icon: "lightbulb",
+                prefix: "foo/",
+                children: ["ray", {text: "...", icon: "ellipsis", link: ""}],
+            },
+        ],
+    },
+    {
+        text: "V2 文档",
+        icon: "book",
+        link: "https://theme-hope.vuejs.press/zh/",
+    },
 ]);
 
 ```
@@ -437,26 +446,26 @@ export const zhNavbar = navbar([
 #### 2.3.4 侧边栏相关配置
 
 ```ts
-import { sidebar } from "vuepress-theme-hope";
+import {sidebar} from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/zh/": [
-    "",
-    {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
-    "slides",
-  ],
+    "/zh/": [
+        "",
+        {
+            text: "案例",
+            icon: "laptop-code",
+            prefix: "demo/",
+            link: "demo/",
+            children: "structure",
+        },
+        {
+            text: "文档",
+            icon: "book",
+            prefix: "guide/",
+            children: "structure",
+        },
+        "slides",
+    ],
 });
 
 ```

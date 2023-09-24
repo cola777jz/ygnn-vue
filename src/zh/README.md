@@ -13,7 +13,7 @@ actions:
   
 
   - text: 文档 💡
-    link: ./study/
+    link: ./Study/
     type: primary
 
   - text: 资料获取

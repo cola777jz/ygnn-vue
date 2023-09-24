@@ -8,7 +8,7 @@ export default hopeTheme({
   author: {
     name: "Mr.Cola",
     url: "https://github.com/cola777jz/ygnn-vue",
-    email: "cola0817jz@gmail.com"
+    email: "cola777jz@gmail.com"
   },
 
   iconAssets: "fontawesome-with-brands",

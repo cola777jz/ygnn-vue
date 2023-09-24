@@ -11,8 +11,8 @@ category:
 
 ## 放松
 
-- [抖音](DouYin)
-- [音乐](Music)
-- [电影](Movie)
-- [旅行](Travel)
+- [抖音](DouYin/)
+- [音乐](Music/)
+- [电影](Movie/)
+- [旅行](Travel/)
 

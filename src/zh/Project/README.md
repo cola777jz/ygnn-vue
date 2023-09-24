@@ -7,16 +7,16 @@ category:
   - README
 ---
 
-## 项目
+## Github & Gitee
 
 ### HelloWorld
 
-- [HelloWorld ](HelloWorld)
+- [HelloWorld ](HelloWorld/)
 
-> 这是 HelloWorld 部分的教程
+这是 HelloWorld 部分的教程
 
 ### Skills
 
-- [技巧](Skills)
+- [技巧](Skills/)
 
-> 这是 技巧 部分的教程
+这是 技巧 部分的教程

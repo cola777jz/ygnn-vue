@@ -10,6 +10,6 @@ category:
 
 ## Bilibili
 
-- [黑马程序员](Itcast)
-- [尚硅谷](Itguigu)
+- [黑马程序员](Itcast/)
+- [尚硅谷](Itguigu/)
 

@@ -1,5 +1,5 @@
 ---
-title: 技巧
+title: Skills
 index: false
 icon: https://yong-gan-niu-niu-1311841992.cos.ap-beijing.myqcloud.com/images/gitee.svg
 category:
@@ -10,6 +10,6 @@ category:
 
 ## 目录
 
-- [Java](Java)
-- [Docker](Docker)
+- [Java](Java/)
+- [Docker](Docker/)
 

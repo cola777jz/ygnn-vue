@@ -7,16 +7,28 @@ category:
   - README
 ---
 
-## 学习
+## 越努力越幸运 👨‍💻👨‍💻👨‍💻👨‍💻
 
 ### 哔哩哔哩
 
-- [Bilibili](Bilibili)
+- [Bilibili](Bilibili/)
 
-> 哔哩哔哩
+哔哩哔哩
+
+### 娱乐
+
+- [Relax](Relax/)
+
+Play 📺📺🎶🎶👩‍💻👩‍💻
 
 ### 计算机科学与技术
 
-- [ScienceTechnology](ScienceTechnology)
+- [ScienceTechnology](ScienceTechnology/)
 
-> 计算机科学与技术
+计算机科学与技术
+
+### 工欲善其事必先利其器
+
+- [Tools](Tools/)
+
+Tools 🛠️🛠️🛠️

@@ -13,4 +13,5 @@ category:
 - [SpringBoot2](SpringBoot2)
 - [SpringBoot3](SpringBoot3)
 - [Vue](Vue)
+- [Vue-Hope](Vue-Hope)
 

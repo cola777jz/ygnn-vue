@@ -16,6 +16,8 @@ category:
 - [Docker 安装常用服务](docker_03.md)
 - [使用 Docker容器配置 MySQL 主从数据库](docker_04.md)
 - [Docker 删除所有悬虚镜像](docker_05.md)
+- [IDEA + Docker 快速部署 Spring Boot 项目](docker_06.md)
+- [WebStorm + Docker 快速部署 Nginx 项目](docker_07.md)
 
 
 

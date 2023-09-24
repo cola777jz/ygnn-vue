@@ -18,4 +18,5 @@ category:
 - [ColaAlist 的使用](dev_05.md)
 - [Picgo 搭配 COS 实现在线图床](dev_06.md)
 - [Typora 的破解及配置](dev_07.md)
+- [NVM 管理工具的下载及使用](dev_08.md)
 

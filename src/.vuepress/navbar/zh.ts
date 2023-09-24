@@ -5,7 +5,7 @@ export const zhNavbar = navbar([
   {
     text: "项目",
     icon: "https://jinzhong-0817-1311841992.cos.ap-nanjing.myqcloud.com/picgo/%E5%AD%A6%E4%B9%A0.svg",
-    prefix: "/zh/Project/",
+    prefix: "Project/",
     children: [
       {
         text: "Skills",
@@ -24,7 +24,7 @@ export const zhNavbar = navbar([
   {
     text: "学习",
     icon: "https://jinzhong-0817-1311841992.cos.ap-nanjing.myqcloud.com/picgo/%E6%A1%88%E4%BE%8B.svg",
-    prefix: "/zh/Study/",
+    prefix: "Study/",
     children: [
       {
         text: "Relax",

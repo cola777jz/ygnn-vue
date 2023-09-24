@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "Mr.Cola",
-    url: "https://github.com/cola0817/ygnn-vue",
+    url: "https://github.com/cola777jz/ygnn-vue",
     email: "cola0817jz@gmail.com"
   },
 
@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "cola0817/ygnn-vue",
+  repo: "cola777jz/ygnn-vue",
 
   docsDir: "src",
 
@@ -27,7 +27,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Power by <a href=\"https://github.com/cola0817/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
+      footer: "Power by <a href=\"https://github.com/cola777jz/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
 
       displayFooter: true,
 
@@ -46,7 +46,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "Power by <a href=\"https://github.com/cola0817/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
+      footer: "Power by <a href=\"https://github.com/cola777jz/ygnn-vue/\" target=\"_blank\">Mr.Cola</a> | MIT Licensed, Copyright © 2023-present Mr.Cola",
 
       displayFooter: true,
 
@@ -68,10 +68,10 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "cola0817/ygnn-vue",
-      repoId: "R_kgDOKXf2lg",
+      repo: "cola777jz/ygnn-vue",
+      repoId: "R_kgDOKXgh7w",
       category: "Announcements",
-      categoryId: "DIC_kwDOKXf2ls4CZk6r",
+      categoryId: "DIC_kwDOKXgh784CZk89",
     },
 
     // All features are enabled for demo, only preserve features you need here
